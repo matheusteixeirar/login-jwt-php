@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 100vh;
+  flex-direction: column;
+}
+
+.caixa-login {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  text-align: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+input[type="email"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.opcoes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.opcoes a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.botao-entrar {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  background-color: #007bff;
+}
+
+.botao-entrar:hover {
+  opacity: 0.9;
+}
+
+#cadastrarse {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    color: #007bff
+}
+
+#btn_check_auth {
+  margin-top: 20px;
+}

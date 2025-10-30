@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="caixa-login">
+        <h1 class="logo">LOGO</h1>
+        <h2>Login</h2>
+
+        <form id="form-login">
+            <input type="email" name="email" placeholder="Email">
+            <input type="password" name="password" placeholder="Senha">
+
+            <div class="opcoes">
+                <label><input type="checkbox" name="manter">Manter conectado</label>
+                <a href="#">Esqueceu a senha?</a>
+            </div>
+
+            <button type="submit" class="botao-entrar">Entrar</button>
+
+            <a href="#" id="cadastrarse">Ainda não possui conta ? Cadastrar-se</a>
+        </form>
+    </div>
+
+    <button id="btn_check_auth">Verificar autenticação</button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
