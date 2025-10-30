@@ -5,3 +5,5 @@
 - **JWT** – autenticação e verificação de sessão
 - **sessionStorage** – armazenamento temporário do token no navegador
 - **MySQL** – armazenamento de usuários
+
+## Iniciar backend: php -S localhost:3000 -t public
